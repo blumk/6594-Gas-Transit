@@ -1,6 +1,6 @@
-# 6594 Gas Transit (1992): 3D Build Guide
+# 6594 Gas Transit
 
-![6594 Gas Transit build guide](screenshot.png)
+![6594 Gas Transit](screenshot.png)
 
 ## Model data
 
@@ -16,14 +16,3 @@
 ## Photoreal render
 
 - [ImportLDraw](https://github.com/TobyLobster/ImportLDraw): the Blender add-on used to import the model and set up the scene (GPL 2).
-
-## The result
-
-- [6594 Gas Transit (1992): 3D Build Guide](https://claude.ai/artifact/79jdpFSpGCvUUsxADV42v3): the published page.
-
-## Used without a link
-
-- `three` and `esbuild` from npm, for the web page.
-- `bpy` (Blender 5.3 as a Python module) from PyPI, for the render.
-- The step order came from two scans of the printed instruction sheet, supplied as images.
-- The Tow tray model came from hand-drawn schematic images, supplied as images.
