@@ -10,7 +10,8 @@
 
 ## Set information
 
-- [Brickset: 6594 Gas Transit](https://brickset.com/sets/6594-1/Gas-Transit): the name, year (1992), and theme and subtheme (Town, Vehicles). The "Official manual" button and the side-panel link also point here.
+- [Brickset: 6594 Gas Transit](https://brickset.com/sets/6594-1/Gas-Transit): the name, year (1992), and theme and subtheme (Town, Vehicles). The side-panel link also points here.
+- [brickinstructions.com: 6594 Gas Transit](https://lego.brickinstructions.com/lego_instructions/set/6594/Gas_Transit): the printed instructions; the "Official manual" button points here.
 
 ## Photoreal render
 

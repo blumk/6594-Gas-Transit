@@ -39,7 +39,7 @@ Open `index.html` directly in a browser to view.
 The page opens on a landing view (`showLanding(true)`, class `landing` on `<body>`): title with the model year in
 parentheses, above it the path line "LEGO System > Town > Vehicles" (product line, theme, subtheme; plain text, no logo),
 no part counts, chips or written description, a primary "Build now" button that goes to step 1 and a secondary "Official
-manual" link to the set's Brickset page. Beside it the finished model turns slowly and can be dragged, with its own Explode slider (same value as
+manual" link to `landing.manual` (the set's brickinstructions.com page; falls back to the `more` link). Beside it the finished model turns slowly and can be dragged, with its own Explode slider (same value as
 the control bar's, reset to 0 by "Build now"). The content comes
 from `landing` in the model's `MODELS` entry; a model without `landing` skips it. The "Home" button in the control bar returns to it.
 

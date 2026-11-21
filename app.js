@@ -290,7 +290,8 @@ const MODELS = [
   { name: 'Tow tray', hash: 'tow-tray', steps: SUB_STEPS, hidden: true }, // no button; still opens with #tow-tray
   { name: '6594 Gas Transit (1992)', hash: 'gas-transit', steps: TRUCK.steps,
     theme: 'manual',
-    landing: { title: '6594 Gas Transit (1992)', path: 'LEGO System > Town > Vehicles' }, // path: product line, theme, subtheme
+    landing: { title: '6594 Gas Transit (1992)', path: 'LEGO System > Town > Vehicles',
+      manual: 'https://lego.brickinstructions.com/lego_instructions/set/6594/Gas_Transit' }, // path: product line, theme, subtheme
     credit: '6594 Gas Transit: the 25 steps follow the order of the set\'s printed instructions (10 for the truck, 15 for the trailer). Part positions come from LDraw Official Model Repository file 6594-1.mpd by Iván Sánchez Ortega, part shapes from the LDraw parts library (both CC BY). Stickers and the figure are left out.',
     more: { url: 'https://brickset.com/sets/6594-1/Gas-Transit', label: 'More details and photos of this set on Brickset' } }
 ];
@@ -496,7 +497,7 @@ function showLanding(on) {
   controls.autoRotate = on || spinOn; controls.autoRotateSpeed = on ? 1.2 : 2;
   if (on) {
     $('l-title').textContent = L.title; $('l-path').textContent = L.path;
-    $('l-manual').href = MODELS[model].more.url;
+    $('l-manual').href = MODELS[model].landing.manual || MODELS[model].more.url;
     go(STEPS.length - 1, false);
   } else { // back to the standard view, then start building
     setExplode(0);
